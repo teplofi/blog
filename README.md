@@ -1,18 +1,18 @@
-# Notas de PHP e Web (Blog estático) — 160 posts
+# Notas de PHP e Web — 50 artigos (PT-BR)
 
-Site estático em português com 160 posts curtos sobre PHP e web.
+Blog estático com 50 posts “normais” (conteúdo curto + estrutura) sobre PHP e web.
 
 ## Publicar no GitHub Pages
 1. Suba tudo no repositório (raiz).
 2. Settings → Pages → Deploy from a branch (main / root).
 3. Acesse o link gerado.
 
-## Arquivos
-- `index.html` (lista + busca)
-- `posts/` (páginas dos posts)
+## Estrutura
+- `index.html` — lista + busca local (client-side)
+- `posts/` — páginas individuais
 - `categorias.html`, `arquivo.html`, `sobre.html`, `projetos.html`
+- `assets/style.css`, `assets/script.js`
 - `sitemap.xml`, `feed.xml`, `robots.txt`
 
-## Personalizar rápido
-- Troque nome e contactos em `sobre.html`.
-- Ajuste/remoção de links externos em `projetos.html`.
+## Sobre link externo
+O link externo aparece apenas em `projetos.html` (intencionalmente), para evitar “link sitewide” com aparência de esquema.

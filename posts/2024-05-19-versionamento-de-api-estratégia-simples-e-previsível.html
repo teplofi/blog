@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Versionamento de API: estratégia simples e previsível · Notas de PHP e Web</title>
+  <meta name="description" content="Versionamento de API: estratégia simples e previsível. Nota prática sobre Boas Práticas."/>
+  <meta name="author" content="Rafael Almeida"/>
+  <link rel="canonical" href="posts/2024-05-19-versionamento-de-api-estratégia-simples-e-previsível.html"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <h1><a href="index.html">Notas de PHP e Web</a></h1>
+        <p>Artigos curtos e práticos sobre PHP, Laravel, bancos de dados e engenharia web (site estático).</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="arquivo.html">Arquivo</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </header>
+    
+<section class="grid">
+  <main class="card article">
+    <div class="meta">
+      <span class="badge">Boas Práticas</span>
+      <span>19 de maio de 2024</span>
+      <span>~3 min</span>
+    </div>
+    <h1>Versionamento de API: estratégia simples e previsível</h1>
+    <p><b>Versionamento de API: estratégia simples e previsível</b> — Boas práticas são atalhos para o futuro: menos retrabalho, menos regressão, mais clareza.</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
+declare(strict_types=1);
+
+final class JsonResponse
+{
+    public static function ok(array $data, int $status = 200): void
+    {
+        http_response_code($status);
+        header(&#x27;Content-Type: application/json; charset=utf-8&#x27;);
+        echo json_encode([&#x27;ok&#x27; =&gt; true, &#x27;data&#x27; =&gt; $data], JSON_UNESCAPED_UNICODE);
+    }
+}
+</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#api</span> <span class="badge">#rest</span> <span class="badge">#http</span> <span class="badge">#git</span> <span class="badge">#migrations</span> <span class="badge">#redis</span> <span class="badge">#monolog</span></div>
+    <div style="height:8px"></div>
+    <div class="kv">
+      <b>Autor</b><div>Rafael Almeida</div>
+      <b>Contato</b><div><a href="mailto:rafael.almeida.dev@example.com">rafael.almeida.dev@example.com</a></div>
+    </div>
+  </main>
+  
+<aside class="card">
+  <h2>Perfil</h2>
+  <div class="kv">
+    <b>Nome</b><div>Rafael Almeida</div>
+    <b>Local</b><div>Lisboa, Portugal</div>
+    <b>E-mail</b><div><a href="mailto:rafael.almeida.dev@example.com">rafael.almeida.dev@example.com</a></div>
+    <b>GitHub</b><div><a href="https://github.com/rafaelalmeida-dev">https://github.com/rafaelalmeida-dev</a></div>
+    <b>LinkedIn</b><div><a href="https://www.linkedin.com/in/rafaelalmeida-dev/">https://www.linkedin.com/in/rafaelalmeida-dev/</a></div>
+    <b>X</b><div><a href="https://x.com/rafaelalmeida_dev">https://x.com/rafaelalmeida_dev</a></div>
+    <b>Segundo projeto</b><div><a href="projetos.html">ver projetos</a></div>
+  </div>
+  <div class="pillrow" style="margin-top:14px">
+    <span class="badge">PHP</span>
+    <span class="badge">Laravel</span>
+    <span class="badge">Postgres</span>
+    <span class="badge">DevOps</span>
+  </div>
+  <div style="height:10px"></div>
+  <div class="notice">
+    <b>Nota:</b> template estático simples para publicar sem banco de dados.
+  </div>
+</aside>
+
+</section>
+
+    <footer class="footer">
+      <div>© 2026 Rafael Almeida. Site estático (HTML/CSS) pronto para GitHub Pages.</div>
+      <div class="small">Conteúdo de exemplo. Ajuste nome, contactos e posts conforme necessário.</div>
+    </footer>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
