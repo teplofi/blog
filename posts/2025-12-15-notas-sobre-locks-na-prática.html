@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Notas sobre locks na prática · Notas de PHP e Web</title>
+  <meta name="description" content="Notas sobre locks na prática. Nota curta sobre Banco de Dados."/>
+  <meta name="author" content="Rafael Almeida"/>
+  <link rel="canonical" href="posts/2025-12-15-notas-sobre-locks-na-prática.html"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <h1><a href="index.html">Notas de PHP e Web</a></h1>
+        <p>Anotações curtas sobre PHP, Laravel, bancos de dados e engenharia web (site estático).</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="arquivo.html">Arquivo</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </header>
+    
+<main class="card article">
+  <div class="meta">
+    <span class="badge">Banco de Dados</span>
+    <span>15 de dezembro de 2025</span>
+    <span>~2 min</span>
+  </div>
+  <h1>Notas sobre locks na prática</h1>
+  <p>Este é um lembrete rápido sobre <b>Notas sobre locks na prática</b>. São notas curtas, com foco em decisões do dia a dia ao manter aplicações PHP.</p><p>A ideia é reduzir fricção: configurações previsíveis, código legível, e um caminho claro para depurar quando algo quebra em produção.</p><p>Em banco de dados, índices e modelagem são trade-offs. Um índice acelera leitura, mas custa escrita. O objetivo é equilibrar com o padrão real de acesso.</p><div class='notice'><b>Dica:</b> quando possível, registre contexto (request id, user id, rota) — isso transforma logs em diagnóstico.</div><h2>Checklist</h2><ul><li>Defina a hipótese (o que está ruim / o que você quer garantir).</li><li>Escolha a menor mudança que testa a hipótese.</li><li>Adicione uma verificação (teste, log ou métrica) para evitar regressão.</li><li>Documente a decisão em 3 linhas para o futuro.</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
+$pdo = new PDO($dsn, $user, $pass, [
+  PDO::ATTR_ERRMODE =&gt; PDO::ERRMODE_EXCEPTION,
+  PDO::ATTR_DEFAULT_FETCH_MODE =&gt; PDO::FETCH_ASSOC,
+]);
+
+$stmt = $pdo-&gt;prepare(&#x27;SELECT id, email FROM users WHERE email = :email&#x27;);
+$stmt-&gt;execute([&#x27;email&#x27; =&gt; $email]);
+$user = $stmt-&gt;fetch();
+</code></pre><div class='pillrow'><span class="badge">#symfony</span> <span class="badge">#tls</span> <span class="badge">#sqlite</span> <span class="badge">#sql</span> <span class="badge">#monolog</span> <span class="badge">#opcache</span></div>
+</main>
+<div style="height:14px"></div>
+<div class="card">
+  <div class="kv">
+    <b>Autor</b><div>Rafael Almeida</div>
+    <b>Contato</b><div><a href="mailto:rafael.almeida.dev@example.com">rafael.almeida.dev@example.com</a></div>
+  </div>
+</div>
+
+    <footer class="footer">
+      <div>© 2026 Rafael Almeida. Site estático (HTML/CSS) pronto para GitHub Pages.</div>
+      <div class="small">Conteúdo de exemplo e rascunhos técnicos. Ajuste conforme necessário.</div>
+    </footer>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

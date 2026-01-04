@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Estratégia para cache tags (com exemplos) · Notas de PHP e Web</title>
+  <meta name="description" content="Estratégia para cache tags (com exemplos). Nota curta sobre DevOps."/>
+  <meta name="author" content="Rafael Almeida"/>
+  <link rel="canonical" href="posts/2025-01-30-estratégia-para-cache-tags-com-exemplos.html"/>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">
+        <h1><a href="index.html">Notas de PHP e Web</a></h1>
+        <p>Anotações curtas sobre PHP, Laravel, bancos de dados e engenharia web (site estático).</p>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="arquivo.html">Arquivo</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </header>
+    
+<main class="card article">
+  <div class="meta">
+    <span class="badge">DevOps</span>
+    <span>30 de janeiro de 2025</span>
+    <span>~1 min</span>
+  </div>
+  <h1>Estratégia para cache tags (com exemplos)</h1>
+  <p>Este é um lembrete rápido sobre <b>Estratégia para cache tags (com exemplos)</b>. São notas curtas, com foco em decisões do dia a dia ao manter aplicações PHP.</p><p>A ideia é reduzir fricção: configurações previsíveis, código legível, e um caminho claro para depurar quando algo quebra em produção.</p><p>Em DevOps, o segredo é repetição: builds determinísticos, ambientes equivalentes e deploys pequenos. Automação evita “mágicas” manuais.</p><div class='notice'><b>Dica:</b> quando possível, registre contexto (request id, user id, rota) — isso transforma logs em diagnóstico.</div><h2>Checklist</h2><ul><li>Defina a hipótese (o que está ruim / o que você quer garantir).</li><li>Escolha a menor mudança que testa a hipótese.</li><li>Adicione uma verificação (teste, log ou métrica) para evitar regressão.</li><li>Documente a decisão em 3 linhas para o futuro.</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
+// Transação com rollback seguro
+$pdo-&gt;beginTransaction();
+try {
+  $pdo-&gt;exec(&#x27;UPDATE accounts SET balance = balance - 10 WHERE id = 1&#x27;);
+  $pdo-&gt;exec(&#x27;UPDATE accounts SET balance = balance + 10 WHERE id = 2&#x27;);
+  $pdo-&gt;commit();
+} catch (Throwable $e) {
+  $pdo-&gt;rollBack();
+  throw $e;
+}
+</code></pre><div class='pillrow'><span class="badge">#cookies</span> <span class="badge">#php-fpm</span> <span class="badge">#queues</span> <span class="badge">#rest</span> <span class="badge">#phpstan</span> <span class="badge">#graphql</span></div>
+</main>
+<div style="height:14px"></div>
+<div class="card">
+  <div class="kv">
+    <b>Autor</b><div>Rafael Almeida</div>
+    <b>Contato</b><div><a href="mailto:rafael.almeida.dev@example.com">rafael.almeida.dev@example.com</a></div>
+  </div>
+</div>
+
+    <footer class="footer">
+      <div>© 2026 Rafael Almeida. Site estático (HTML/CSS) pronto para GitHub Pages.</div>
+      <div class="small">Conteúdo de exemplo e rascunhos técnicos. Ajuste conforme necessário.</div>
+    </footer>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
