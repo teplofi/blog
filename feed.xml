@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Notas de PHP e Web</title>
+  <link>/index.html</link>
+  <description>Anotações curtas sobre PHP, Laravel, bancos de dados e engenharia web (site estático).</description>
+  <language>pt-BR</language>
+  <lastBuildDate>Sun, 04 Jan 2026 19:00:00 +0000</lastBuildDate>
+
+  <item>
+    <title>Notas sobre pipeline CI/CD em 10 minutos</title>
+    <link>/posts/2025-12-31-notas-sobre-pipeline-cicd-em-10-minutos.html</link>
+    <guid>/posts/2025-12-31-notas-sobre-pipeline-cicd-em-10-minutos.html</guid>
+    <pubDate>Wed, 31 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Segurança</category>
+    <description>Notas sobre pipeline CI/CD em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Quando usar JWT em APIs (com exemplos)</title>
+    <link>/posts/2025-12-20-quando-usar-jwt-em-apis-com-exemplos.html</link>
+    <guid>/posts/2025-12-20-quando-usar-jwt-em-apis-com-exemplos.html</guid>
+    <pubDate>Sat, 20 Dec 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Quando usar JWT em APIs (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Notas sobre locks na prática</title>
+    <link>/posts/2025-12-15-notas-sobre-locks-na-prática.html</link>
+    <guid>/posts/2025-12-15-notas-sobre-locks-na-prática.html</guid>
+    <pubDate>Mon, 15 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Banco de Dados</category>
+    <description>Notas sobre locks na prática</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em testes de integração</title>
+    <link>/posts/2025-12-12-erros-comuns-em-testes-de-integração.html</link>
+    <guid>/posts/2025-12-12-erros-comuns-em-testes-de-integração.html</guid>
+    <pubDate>Fri, 12 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Erros comuns em testes de integração</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em queues no Laravel para produção</title>
+    <link>/posts/2025-12-03-erros-comuns-em-queues-no-laravel-para-produção.html</link>
+    <guid>/posts/2025-12-03-erros-comuns-em-queues-no-laravel-para-produção.html</guid>
+    <pubDate>Wed, 03 Dec 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Erros comuns em queues no Laravel para produção</description>
+  </item>
+
+  <item>
+    <title>Como configurar transações para APIs</title>
+    <link>/posts/2025-11-27-como-configurar-transações-para-apis.html</link>
+    <guid>/posts/2025-11-27-como-configurar-transações-para-apis.html</guid>
+    <pubDate>Thu, 27 Nov 2025 12:00:00 +0000</pubDate>
+    <category>Testes</category>
+    <description>Como configurar transações para APIs</description>
+  </item>
+
+  <item>
+    <title>Quando usar testes de integração (com exemplos)</title>
+    <link>/posts/2025-11-15-quando-usar-testes-de-integração-com-exemplos.html</link>
+    <guid>/posts/2025-11-15-quando-usar-testes-de-integração-com-exemplos.html</guid>
+    <pubDate>Sat, 15 Nov 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Quando usar testes de integração (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Como configurar deploy blue/green para APIs</title>
+    <link>/posts/2025-11-07-como-configurar-deploy-bluegreen-para-apis.html</link>
+    <guid>/posts/2025-11-07-como-configurar-deploy-bluegreen-para-apis.html</guid>
+    <pubDate>Fri, 07 Nov 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Como configurar deploy blue/green para APIs</description>
+  </item>
+
+  <item>
+    <title>Quando usar cache tags sem dor</title>
+    <link>/posts/2025-11-06-quando-usar-cache-tags-sem-dor.html</link>
+    <guid>/posts/2025-11-06-quando-usar-cache-tags-sem-dor.html</guid>
+    <pubDate>Thu, 06 Nov 2025 12:00:00 +0000</pubDate>
+    <category>Testes</category>
+    <description>Quando usar cache tags sem dor</description>
+  </item>
+
+  <item>
+    <title>Checklist mocks e stubs (com exemplos)</title>
+    <link>/posts/2025-10-30-checklist-mocks-e-stubs-com-exemplos.html</link>
+    <guid>/posts/2025-10-30-checklist-mocks-e-stubs-com-exemplos.html</guid>
+    <pubDate>Thu, 30 Oct 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Checklist mocks e stubs (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Quando usar mocks e stubs</title>
+    <link>/posts/2025-10-23-quando-usar-mocks-e-stubs.html</link>
+    <guid>/posts/2025-10-23-quando-usar-mocks-e-stubs.html</guid>
+    <pubDate>Thu, 23 Oct 2025 12:00:00 +0000</pubDate>
+    <category>Segurança</category>
+    <description>Quando usar mocks e stubs</description>
+  </item>
+
+  <item>
+    <title>Checklist static analysis (PHPStan/Psalm) (com exemplos)</title>
+    <link>/posts/2025-10-14-checklist-static-analysis-phpstanpsalm-com-exemplos.html</link>
+    <guid>/posts/2025-10-14-checklist-static-analysis-phpstanpsalm-com-exemplos.html</guid>
+    <pubDate>Tue, 14 Oct 2025 12:00:00 +0000</pubDate>
+    <category>PHP</category>
+    <description>Checklist static analysis (PHPStan/Psalm) (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Guia curto versionamento de API em 10 minutos</title>
+    <link>/posts/2025-10-13-guia-curto-versionamento-de-api-em-10-minutos.html</link>
+    <guid>/posts/2025-10-13-guia-curto-versionamento-de-api-em-10-minutos.html</guid>
+    <pubDate>Mon, 13 Oct 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Guia curto versionamento de API em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Como evitar refatoração segura para produção</title>
+    <link>/posts/2025-09-28-como-evitar-refatoração-segura-para-produção.html</link>
+    <guid>/posts/2025-09-28-como-evitar-refatoração-segura-para-produção.html</guid>
+    <pubDate>Sun, 28 Sep 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Como evitar refatoração segura para produção</description>
+  </item>
+
+  <item>
+    <title>Como configurar secrets e env vars em 10 minutos</title>
+    <link>/posts/2025-09-24-como-configurar-secrets-e-env-vars-em-10-minutos.html</link>
+    <guid>/posts/2025-09-24-como-configurar-secrets-e-env-vars-em-10-minutos.html</guid>
+    <pubDate>Wed, 24 Sep 2025 12:00:00 +0000</pubDate>
+    <category>Laravel</category>
+    <description>Como configurar secrets e env vars em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Entendendo JSONB no Postgres para produção</title>
+    <link>/posts/2025-09-23-entendendo-jsonb-no-postgres-para-produção.html</link>
+    <guid>/posts/2025-09-23-entendendo-jsonb-no-postgres-para-produção.html</guid>
+    <pubDate>Tue, 23 Sep 2025 12:00:00 +0000</pubDate>
+    <category>PHP</category>
+    <description>Entendendo JSONB no Postgres para produção</description>
+  </item>
+
+  <item>
+    <title>Notas sobre paginação por cursor (com exemplos)</title>
+    <link>/posts/2025-09-08-notas-sobre-paginação-por-cursor-com-exemplos.html</link>
+    <guid>/posts/2025-09-08-notas-sobre-paginação-por-cursor-com-exemplos.html</guid>
+    <pubDate>Mon, 08 Sep 2025 12:00:00 +0000</pubDate>
+    <category>Banco de Dados</category>
+    <description>Notas sobre paginação por cursor (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Checklist JSONB no Postgres em 10 minutos</title>
+    <link>/posts/2025-08-30-checklist-jsonb-no-postgres-em-10-minutos.html</link>
+    <guid>/posts/2025-08-30-checklist-jsonb-no-postgres-em-10-minutos.html</guid>
+    <pubDate>Sat, 30 Aug 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Checklist JSONB no Postgres em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Checklist pool de conexões sem dor</title>
+    <link>/posts/2025-08-29-checklist-pool-de-conexões-sem-dor.html</link>
+    <guid>/posts/2025-08-29-checklist-pool-de-conexões-sem-dor.html</guid>
+    <pubDate>Fri, 29 Aug 2025 12:00:00 +0000</pubDate>
+    <category>Segurança</category>
+    <description>Checklist pool de conexões sem dor</description>
+  </item>
+
+  <item>
+    <title>Quando usar fixtures pequenas para APIs</title>
+    <link>/posts/2025-08-18-quando-usar-fixtures-pequenas-para-apis.html</link>
+    <guid>/posts/2025-08-18-quando-usar-fixtures-pequenas-para-apis.html</guid>
+    <pubDate>Mon, 18 Aug 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Quando usar fixtures pequenas para APIs</description>
+  </item>
+
+  <item>
+    <title>Como configurar testes de integração para produção</title>
+    <link>/posts/2025-08-17-como-configurar-testes-de-integração-para-produção.html</link>
+    <guid>/posts/2025-08-17-como-configurar-testes-de-integração-para-produção.html</guid>
+    <pubDate>Sun, 17 Aug 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Como configurar testes de integração para produção</description>
+  </item>
+
+  <item>
+    <title>Estratégia para observabilidade em 10 minutos</title>
+    <link>/posts/2025-08-04-estratégia-para-observabilidade-em-10-minutos.html</link>
+    <guid>/posts/2025-08-04-estratégia-para-observabilidade-em-10-minutos.html</guid>
+    <pubDate>Mon, 04 Aug 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Estratégia para observabilidade em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em pool de conexões (com exemplos)</title>
+    <link>/posts/2025-07-31-erros-comuns-em-pool-de-conexões-com-exemplos.html</link>
+    <guid>/posts/2025-07-31-erros-comuns-em-pool-de-conexões-com-exemplos.html</guid>
+    <pubDate>Thu, 31 Jul 2025 12:00:00 +0000</pubDate>
+    <category>PHP</category>
+    <description>Erros comuns em pool de conexões (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Como evitar cache tags para APIs</title>
+    <link>/posts/2025-07-26-como-evitar-cache-tags-para-apis.html</link>
+    <guid>/posts/2025-07-26-como-evitar-cache-tags-para-apis.html</guid>
+    <pubDate>Sat, 26 Jul 2025 12:00:00 +0000</pubDate>
+    <category>Banco de Dados</category>
+    <description>Como evitar cache tags para APIs</description>
+  </item>
+
+  <item>
+    <title>Como evitar N+1 queries sem dor</title>
+    <link>/posts/2025-07-12-como-evitar-n1-queries-sem-dor.html</link>
+    <guid>/posts/2025-07-12-como-evitar-n1-queries-sem-dor.html</guid>
+    <pubDate>Sat, 12 Jul 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Como evitar N+1 queries sem dor</description>
+  </item>
+
+  <item>
+    <title>Quando usar sanitização vs validação (com exemplos)</title>
+    <link>/posts/2025-07-10-quando-usar-sanitização-vs-validação-com-exemplos.html</link>
+    <guid>/posts/2025-07-10-quando-usar-sanitização-vs-validação-com-exemplos.html</guid>
+    <pubDate>Thu, 10 Jul 2025 12:00:00 +0000</pubDate>
+    <category>Banco de Dados</category>
+    <description>Quando usar sanitização vs validação (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Boas práticas de Docker multi-stage em 10 minutos</title>
+    <link>/posts/2025-07-08-boas-práticas-de-docker-multi-stage-em-10-minutos.html</link>
+    <guid>/posts/2025-07-08-boas-práticas-de-docker-multi-stage-em-10-minutos.html</guid>
+    <pubDate>Tue, 08 Jul 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Boas práticas de Docker multi-stage em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em Eloquent vs Query Builder na prática</title>
+    <link>/posts/2025-06-28-erros-comuns-em-eloquent-vs-query-builder-na-prática.html</link>
+    <guid>/posts/2025-06-28-erros-comuns-em-eloquent-vs-query-builder-na-prática.html</guid>
+    <pubDate>Sat, 28 Jun 2025 12:00:00 +0000</pubDate>
+    <category>Laravel</category>
+    <description>Erros comuns em Eloquent vs Query Builder na prática</description>
+  </item>
+
+  <item>
+    <title>Estratégia para timeouts em 10 minutos</title>
+    <link>/posts/2025-06-26-estratégia-para-timeouts-em-10-minutos.html</link>
+    <guid>/posts/2025-06-26-estratégia-para-timeouts-em-10-minutos.html</guid>
+    <pubDate>Thu, 26 Jun 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Estratégia para timeouts em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Boas práticas de static analysis (PHPStan/Psalm)</title>
+    <link>/posts/2025-06-12-boas-práticas-de-static-analysis-phpstanpsalm.html</link>
+    <guid>/posts/2025-06-12-boas-práticas-de-static-analysis-phpstanpsalm.html</guid>
+    <pubDate>Thu, 12 Jun 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Boas práticas de static analysis (PHPStan/Psalm)</description>
+  </item>
+
+  <item>
+    <title>Entendendo static analysis (PHPStan/Psalm)</title>
+    <link>/posts/2025-06-08-entendendo-static-analysis-phpstanpsalm.html</link>
+    <guid>/posts/2025-06-08-entendendo-static-analysis-phpstanpsalm.html</guid>
+    <pubDate>Sun, 08 Jun 2025 12:00:00 +0000</pubDate>
+    <category>Banco de Dados</category>
+    <description>Entendendo static analysis (PHPStan/Psalm)</description>
+  </item>
+
+  <item>
+    <title>Como evitar config caching (com exemplos)</title>
+    <link>/posts/2025-06-04-como-evitar-config-caching-com-exemplos.html</link>
+    <guid>/posts/2025-06-04-como-evitar-config-caching-com-exemplos.html</guid>
+    <pubDate>Wed, 04 Jun 2025 12:00:00 +0000</pubDate>
+    <category>Laravel</category>
+    <description>Como evitar config caching (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Boas práticas de timeouts para produção</title>
+    <link>/posts/2025-05-27-boas-práticas-de-timeouts-para-produção.html</link>
+    <guid>/posts/2025-05-27-boas-práticas-de-timeouts-para-produção.html</guid>
+    <pubDate>Tue, 27 May 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Boas práticas de timeouts para produção</description>
+  </item>
+
+  <item>
+    <title>Entendendo rate limiting sem dor</title>
+    <link>/posts/2025-05-21-entendendo-rate-limiting-sem-dor.html</link>
+    <guid>/posts/2025-05-21-entendendo-rate-limiting-sem-dor.html</guid>
+    <pubDate>Wed, 21 May 2025 12:00:00 +0000</pubDate>
+    <category>Banco de Dados</category>
+    <description>Entendendo rate limiting sem dor</description>
+  </item>
+
+  <item>
+    <title>Quando usar retries e idempotência</title>
+    <link>/posts/2025-05-08-quando-usar-retries-e-idempotência.html</link>
+    <guid>/posts/2025-05-08-quando-usar-retries-e-idempotência.html</guid>
+    <pubDate>Thu, 08 May 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Quando usar retries e idempotência</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em N+1 queries sem dor</title>
+    <link>/posts/2025-05-08-erros-comuns-em-n1-queries-sem-dor.html</link>
+    <guid>/posts/2025-05-08-erros-comuns-em-n1-queries-sem-dor.html</guid>
+    <pubDate>Thu, 08 May 2025 12:00:00 +0000</pubDate>
+    <category>Laravel</category>
+    <description>Erros comuns em N+1 queries sem dor</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em logging estruturado em 10 minutos</title>
+    <link>/posts/2025-05-02-erros-comuns-em-logging-estruturado-em-10-minutos.html</link>
+    <guid>/posts/2025-05-02-erros-comuns-em-logging-estruturado-em-10-minutos.html</guid>
+    <pubDate>Fri, 02 May 2025 12:00:00 +0000</pubDate>
+    <category>Laravel</category>
+    <description>Erros comuns em logging estruturado em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Como evitar retries e idempotência na prática</title>
+    <link>/posts/2025-04-14-como-evitar-retries-e-idempotência-na-prática.html</link>
+    <guid>/posts/2025-04-14-como-evitar-retries-e-idempotência-na-prática.html</guid>
+    <pubDate>Mon, 14 Apr 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Como evitar retries e idempotência na prática</description>
+  </item>
+
+  <item>
+    <title>Notas sobre tipos estritos (strict_types) em 10 minutos</title>
+    <link>/posts/2025-04-10-notas-sobre-tipos-estritos-strict_types-em-10-minutos.html</link>
+    <guid>/posts/2025-04-10-notas-sobre-tipos-estritos-strict_types-em-10-minutos.html</guid>
+    <pubDate>Thu, 10 Apr 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Notas sobre tipos estritos (strict_types) em 10 minutos</description>
+  </item>
+
+  <item>
+    <title>Boas práticas de PHP-FPM e Nginx para APIs</title>
+    <link>/posts/2025-04-08-boas-práticas-de-php-fpm-e-nginx-para-apis.html</link>
+    <guid>/posts/2025-04-08-boas-práticas-de-php-fpm-e-nginx-para-apis.html</guid>
+    <pubDate>Tue, 08 Apr 2025 12:00:00 +0000</pubDate>
+    <category>Testes</category>
+    <description>Boas práticas de PHP-FPM e Nginx para APIs</description>
+  </item>
+
+  <item>
+    <title>Notas sobre paginação por cursor para APIs</title>
+    <link>/posts/2025-04-04-notas-sobre-paginação-por-cursor-para-apis.html</link>
+    <guid>/posts/2025-04-04-notas-sobre-paginação-por-cursor-para-apis.html</guid>
+    <pubDate>Fri, 04 Apr 2025 12:00:00 +0000</pubDate>
+    <category>Testes</category>
+    <description>Notas sobre paginação por cursor para APIs</description>
+  </item>
+
+  <item>
+    <title>Como evitar tratamento de exceções para APIs</title>
+    <link>/posts/2025-03-24-como-evitar-tratamento-de-exceções-para-apis.html</link>
+    <guid>/posts/2025-03-24-como-evitar-tratamento-de-exceções-para-apis.html</guid>
+    <pubDate>Mon, 24 Mar 2025 12:00:00 +0000</pubDate>
+    <category>Laravel</category>
+    <description>Como evitar tratamento de exceções para APIs</description>
+  </item>
+
+  <item>
+    <title>Erros comuns em SQL eficiente para APIs</title>
+    <link>/posts/2025-03-14-erros-comuns-em-sql-eficiente-para-apis.html</link>
+    <guid>/posts/2025-03-14-erros-comuns-em-sql-eficiente-para-apis.html</guid>
+    <pubDate>Fri, 14 Mar 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Erros comuns em SQL eficiente para APIs</description>
+  </item>
+
+  <item>
+    <title>Boas práticas de secrets e env vars para APIs</title>
+    <link>/posts/2025-03-04-boas-práticas-de-secrets-e-env-vars-para-apis.html</link>
+    <guid>/posts/2025-03-04-boas-práticas-de-secrets-e-env-vars-para-apis.html</guid>
+    <pubDate>Tue, 04 Mar 2025 12:00:00 +0000</pubDate>
+    <category>Segurança</category>
+    <description>Boas práticas de secrets e env vars para APIs</description>
+  </item>
+
+  <item>
+    <title>Estratégia para uploads seguros (com exemplos)</title>
+    <link>/posts/2025-02-25-estratégia-para-uploads-seguros-com-exemplos.html</link>
+    <guid>/posts/2025-02-25-estratégia-para-uploads-seguros-com-exemplos.html</guid>
+    <pubDate>Tue, 25 Feb 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Estratégia para uploads seguros (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Guia curto secrets e env vars</title>
+    <link>/posts/2025-02-25-guia-curto-secrets-e-env-vars.html</link>
+    <guid>/posts/2025-02-25-guia-curto-secrets-e-env-vars.html</guid>
+    <pubDate>Tue, 25 Feb 2025 12:00:00 +0000</pubDate>
+    <category>Segurança</category>
+    <description>Guia curto secrets e env vars</description>
+  </item>
+
+  <item>
+    <title>Checklist logging estruturado para APIs</title>
+    <link>/posts/2025-02-23-checklist-logging-estruturado-para-apis.html</link>
+    <guid>/posts/2025-02-23-checklist-logging-estruturado-para-apis.html</guid>
+    <pubDate>Sun, 23 Feb 2025 12:00:00 +0000</pubDate>
+    <category>Performance</category>
+    <description>Checklist logging estruturado para APIs</description>
+  </item>
+
+  <item>
+    <title>Entendendo logging estruturado (com exemplos)</title>
+    <link>/posts/2025-02-13-entendendo-logging-estruturado-com-exemplos.html</link>
+    <guid>/posts/2025-02-13-entendendo-logging-estruturado-com-exemplos.html</guid>
+    <pubDate>Thu, 13 Feb 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Entendendo logging estruturado (com exemplos)</description>
+  </item>
+
+  <item>
+    <title>Guia curto tratamento de exceções na prática</title>
+    <link>/posts/2025-02-04-guia-curto-tratamento-de-exceções-na-prática.html</link>
+    <guid>/posts/2025-02-04-guia-curto-tratamento-de-exceções-na-prática.html</guid>
+    <pubDate>Tue, 04 Feb 2025 12:00:00 +0000</pubDate>
+    <category>Boas Práticas</category>
+    <description>Guia curto tratamento de exceções na prática</description>
+  </item>
+
+  <item>
+    <title>Estratégia para cache tags (com exemplos)</title>
+    <link>/posts/2025-01-30-estratégia-para-cache-tags-com-exemplos.html</link>
+    <guid>/posts/2025-01-30-estratégia-para-cache-tags-com-exemplos.html</guid>
+    <pubDate>Thu, 30 Jan 2025 12:00:00 +0000</pubDate>
+    <category>DevOps</category>
+    <description>Estratégia para cache tags (com exemplos)</description>
+  </item>
+</channel>
+</rss>
