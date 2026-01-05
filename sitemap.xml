@@ -5,54 +5,54 @@
   <url><loc>/arquivo.html</loc></url>
   <url><loc>/projetos.html</loc></url>
   <url><loc>/sobre.html</loc></url>
-  <url><loc>/posts/2025-12-10-symfony-components-no-php-puro-por-onde-começar.html</loc><lastmod>2025-12-10</lastmod></url>
-  <url><loc>/posts/2025-11-25-psr-12-consistência-com-ferramentas-automáticas.html</loc><lastmod>2025-11-25</lastmod></url>
-  <url><loc>/posts/2025-10-25-documentando-decisões-técnicas-adr-em-10-linhas.html</loc><lastmod>2025-10-25</lastmod></url>
+  <url><loc>/posts/2025-12-10-symfony-components-no-php-puro-por-onde-comecar.html</loc><lastmod>2025-12-10</lastmod></url>
+  <url><loc>/posts/2025-11-25-psr-12-consistencia-com-ferramentas-automaticas.html</loc><lastmod>2025-11-25</lastmod></url>
+  <url><loc>/posts/2025-10-25-documentando-decisoes-tecnicas-adr-em-10-linhas.html</loc><lastmod>2025-10-25</lastmod></url>
   <url><loc>/posts/2025-10-07-http-timeouts-conect-read-e-o-que-logar.html</loc><lastmod>2025-10-07</lastmod></url>
-  <url><loc>/posts/2025-09-13-segredos-em-produção-rotate-least-privilege-e-armazenamento.html</loc><lastmod>2025-09-13</lastmod></url>
+  <url><loc>/posts/2025-09-13-segredos-em-producao-rotate-least-privilege-e-armazenamento.html</loc><lastmod>2025-09-13</lastmod></url>
   <url><loc>/posts/2025-08-16-deploy-bluegreen-quando-vale-a-pena.html</loc><lastmod>2025-08-16</lastmod></url>
-  <url><loc>/posts/2025-08-10-cli-no-php-scripts-confiáveis-e-cron.html</loc><lastmod>2025-08-10</lastmod></url>
-  <url><loc>/posts/2025-07-15-mysql-vs-postgres-diferenças-práticas-no-dia-a-dia.html</loc><lastmod>2025-07-15</lastmod></url>
-  <url><loc>/posts/2025-06-18-sql-eficiente-evite-select-e-colunas-desnecessárias.html</loc><lastmod>2025-06-18</lastmod></url>
-  <url><loc>/posts/2025-06-03-tls-básico-headers-e-boas-práticas.html</loc><lastmod>2025-06-03</lastmod></url>
-  <url><loc>/posts/2025-04-30-observabilidade-métricas-básicas-para-uma-api.html</loc><lastmod>2025-04-30</lastmod></url>
+  <url><loc>/posts/2025-08-10-cli-no-php-scripts-confiaveis-e-cron.html</loc><lastmod>2025-08-10</lastmod></url>
+  <url><loc>/posts/2025-07-15-mysql-vs-postgres-diferencas-praticas-no-dia-a-dia.html</loc><lastmod>2025-07-15</lastmod></url>
+  <url><loc>/posts/2025-06-18-sql-eficiente-evite-select-e-colunas-desnecessarias.html</loc><lastmod>2025-06-18</lastmod></url>
+  <url><loc>/posts/2025-06-03-tls-basico-headers-e-boas-praticas.html</loc><lastmod>2025-06-03</lastmod></url>
+  <url><loc>/posts/2025-04-30-observabilidade-metricas-basicas-para-uma-api.html</loc><lastmod>2025-04-30</lastmod></url>
   <url><loc>/posts/2025-04-07-health-checks-readinessliveness-e-timeouts.html</loc><lastmod>2025-04-07</lastmod></url>
-  <url><loc>/posts/2025-03-31-nginx-php-fpm-parâmetros-que-importam.html</loc><lastmod>2025-03-31</lastmod></url>
+  <url><loc>/posts/2025-03-31-nginx-php-fpm-parametros-que-importam.html</loc><lastmod>2025-03-31</lastmod></url>
   <url><loc>/posts/2025-03-03-docker-para-php-multi-stage-e-imagens-pequenas.html</loc><lastmod>2025-03-03</lastmod></url>
-  <url><loc>/posts/2025-02-08-cicd-para-php-pipeline-mínimo-lint-testes-build.html</loc><lastmod>2025-02-08</lastmod></url>
-  <url><loc>/posts/2025-01-26-mocks-e-stubs-o-mínimo-necessário.html</loc><lastmod>2025-01-26</lastmod></url>
-  <url><loc>/posts/2024-12-25-testes-de-integração-com-banco-transações-e-fixtures-pequenas.html</loc><lastmod>2024-12-25</lastmod></url>
-  <url><loc>/posts/2024-12-16-phpunit-organização-de-testes-e-nomes-claros.html</loc><lastmod>2024-12-16</lastmod></url>
-  <url><loc>/posts/2024-11-20-laravel-caching-de-config-e-rotas-em-produção.html</loc><lastmod>2024-11-20</lastmod></url>
-  <url><loc>/posts/2024-10-25-laravel-middlewares-para-autenticação-e-rate-limit.html</loc><lastmod>2024-10-25</lastmod></url>
+  <url><loc>/posts/2025-02-08-cicd-para-php-pipeline-minimo-lint-testes-build.html</loc><lastmod>2025-02-08</lastmod></url>
+  <url><loc>/posts/2025-01-26-mocks-e-stubs-o-minimo-necessario.html</loc><lastmod>2025-01-26</lastmod></url>
+  <url><loc>/posts/2024-12-25-testes-de-integracao-com-banco-transacoes-e-fixtures-pequenas.html</loc><lastmod>2024-12-25</lastmod></url>
+  <url><loc>/posts/2024-12-16-phpunit-organizacao-de-testes-e-nomes-claros.html</loc><lastmod>2024-12-16</lastmod></url>
+  <url><loc>/posts/2024-11-20-laravel-caching-de-config-e-rotas-em-producao.html</loc><lastmod>2024-11-20</lastmod></url>
+  <url><loc>/posts/2024-10-25-laravel-middlewares-para-autenticacao-e-rate-limit.html</loc><lastmod>2024-10-25</lastmod></url>
   <url><loc>/posts/2024-10-08-laravel-eloquent-vs-query-builder-quando-trocar.html</loc><lastmod>2024-10-08</lastmod></url>
-  <url><loc>/posts/2024-09-02-laravel-filas-queues-e-jobs-confiáveis.html</loc><lastmod>2024-09-02</lastmod></url>
-  <url><loc>/posts/2024-08-19-laravel-validação-com-form-requests.html</loc><lastmod>2024-08-19</lastmod></url>
-  <url><loc>/posts/2024-07-27-config-por-env-vars-padrões-e-armadilhas.html</loc><lastmod>2024-07-27</lastmod></url>
-  <url><loc>/posts/2024-06-30-lint-análise-estática-phpstanpsalm-no-dia-a-dia.html</loc><lastmod>2024-06-30</lastmod></url>
-  <url><loc>/posts/2024-06-09-refatoração-segura-passos-pequenos-testes.html</loc><lastmod>2024-06-09</lastmod></url>
-  <url><loc>/posts/2024-05-19-versionamento-de-api-estratégia-simples-e-previsível.html</loc><lastmod>2024-05-19</lastmod></url>
-  <url><loc>/posts/2024-05-11-idempotência-em-apis-retries-sem-duplicar-efeitos.html</loc><lastmod>2024-05-11</lastmod></url>
-  <url><loc>/posts/2024-04-04-logs-estruturados-contexto-mínimo-para-depurar-rápido.html</loc><lastmod>2024-04-04</lastmod></url>
-  <url><loc>/posts/2024-03-18-conexões-e-pool-evitando-saturar-o-banco.html</loc><lastmod>2024-03-18</lastmod></url>
-  <url><loc>/posts/2024-03-06-migrações-sem-downtime-padrão-de-duas-fases.html</loc><lastmod>2024-03-06</lastmod></url>
-  <url><loc>/posts/2024-02-11-transações-quando-usar-e-como-evitar-deadlocks.html</loc><lastmod>2024-02-11</lastmod></url>
-  <url><loc>/posts/2024-01-09-postgres-jsonb-filtros-úteis-e-índices.html</loc><lastmod>2024-01-09</lastmod></url>
-  <url><loc>/posts/2024-01-04-postgres-índices-compostos-e-como-escolher-ordem-de-colunas.html</loc><lastmod>2024-01-04</lastmod></url>
+  <url><loc>/posts/2024-09-02-laravel-filas-queues-e-jobs-confiaveis.html</loc><lastmod>2024-09-02</lastmod></url>
+  <url><loc>/posts/2024-08-19-laravel-validacao-com-form-requests.html</loc><lastmod>2024-08-19</lastmod></url>
+  <url><loc>/posts/2024-07-27-config-por-env-vars-padroes-e-armadilhas.html</loc><lastmod>2024-07-27</lastmod></url>
+  <url><loc>/posts/2024-06-30-lint-analise-estatica-phpstanpsalm-no-dia-a-dia.html</loc><lastmod>2024-06-30</lastmod></url>
+  <url><loc>/posts/2024-06-09-refatoracao-segura-passos-pequenos-testes.html</loc><lastmod>2024-06-09</lastmod></url>
+  <url><loc>/posts/2024-05-19-versionamento-de-api-estrategia-simples-e-previsivel.html</loc><lastmod>2024-05-19</lastmod></url>
+  <url><loc>/posts/2024-05-11-idempotencia-em-apis-retries-sem-duplicar-efeitos.html</loc><lastmod>2024-05-11</lastmod></url>
+  <url><loc>/posts/2024-04-04-logs-estruturados-contexto-minimo-para-depurar-rapido.html</loc><lastmod>2024-04-04</lastmod></url>
+  <url><loc>/posts/2024-03-18-conexoes-e-pool-evitando-saturar-o-banco.html</loc><lastmod>2024-03-18</lastmod></url>
+  <url><loc>/posts/2024-03-06-migracoes-sem-downtime-padrao-de-duas-fases.html</loc><lastmod>2024-03-06</lastmod></url>
+  <url><loc>/posts/2024-02-11-transacoes-quando-usar-e-como-evitar-deadlocks.html</loc><lastmod>2024-02-11</lastmod></url>
+  <url><loc>/posts/2024-01-09-postgres-jsonb-filtros-uteis-e-indices.html</loc><lastmod>2024-01-09</lastmod></url>
+  <url><loc>/posts/2024-01-04-postgres-indices-compostos-e-como-escolher-ordem-de-colunas.html</loc><lastmod>2024-01-04</lastmod></url>
   <url><loc>/posts/2023-11-28-profiling-em-php-onde-medir-primeiro.html</loc><lastmod>2023-11-28</lastmod></url>
   <url><loc>/posts/2023-11-08-http-caching-etag-cache-control-e-304.html</loc><lastmod>2023-11-08</lastmod></url>
-  <url><loc>/posts/2023-10-23-paginação-por-cursor-por-que-é-mais-estável-que-limitoffset.html</loc><lastmod>2023-10-23</lastmod></url>
-  <url><loc>/posts/2023-10-06-evite-n1-sinais-diagnósticos-e-correções.html</loc><lastmod>2023-10-06</lastmod></url>
-  <url><loc>/posts/2023-09-03-cache-com-redis-ttl-invalidação-e-padrões-comuns.html</loc><lastmod>2023-09-03</lastmod></url>
-  <url><loc>/posts/2023-08-15-opcache-configuração-recomendada-para-produção.html</loc><lastmod>2023-08-15</lastmod></url>
-  <url><loc>/posts/2023-08-03-cors-sem-sofrimento-mental-model-e-configuração.html</loc><lastmod>2023-08-03</lastmod></url>
-  <url><loc>/posts/2023-07-14-uploads-seguros-tipos-nomes-armazenamento-e-verificação.html</loc><lastmod>2023-07-14</lastmod></url>
-  <url><loc>/posts/2023-06-11-rate-limiting-limitando-abuso-sem-quebrar-usuários-reais.html</loc><lastmod>2023-06-11</lastmod></url>
-  <url><loc>/posts/2023-05-21-jwt-quando-faz-sentido-e-quando-não.html</loc><lastmod>2023-05-21</lastmod></url>
-  <url><loc>/posts/2023-05-12-csrf-em-formulários-checklist-rápido.html</loc><lastmod>2023-05-12</lastmod></url>
-  <url><loc>/posts/2023-04-18-sessões-e-cookies-flags-seguras-samesite-e-expiração.html</loc><lastmod>2023-04-18</lastmod></url>
-  <url><loc>/posts/2023-03-25-validação-de-entrada-o-que-validar-e-onde-validar.html</loc><lastmod>2023-03-25</lastmod></url>
-  <url><loc>/posts/2023-03-04-erros-e-exceções-no-php-8-estratégia-consistente-de-tratamento.html</loc><lastmod>2023-03-04</lastmod></url>
-  <url><loc>/posts/2023-02-13-pdo-com-prepared-statements-evitando-sql-injection-na-prática.html</loc><lastmod>2023-02-13</lastmod></url>
-  <url><loc>/posts/2023-01-20-composer-e-autoload-psr-4-estrutura-mínima-que-escala.html</loc><lastmod>2023-01-20</lastmod></url>
+  <url><loc>/posts/2023-10-23-paginacao-por-cursor-por-que-e-mais-estavel-que-limitoffset.html</loc><lastmod>2023-10-23</lastmod></url>
+  <url><loc>/posts/2023-10-06-evite-n1-sinais-diagnosticos-e-correcoes.html</loc><lastmod>2023-10-06</lastmod></url>
+  <url><loc>/posts/2023-09-03-cache-com-redis-ttl-invalidacao-e-padroes-comuns.html</loc><lastmod>2023-09-03</lastmod></url>
+  <url><loc>/posts/2023-08-15-opcache-configuracao-recomendada-para-producao.html</loc><lastmod>2023-08-15</lastmod></url>
+  <url><loc>/posts/2023-08-03-cors-sem-sofrimento-mental-model-e-configuracao.html</loc><lastmod>2023-08-03</lastmod></url>
+  <url><loc>/posts/2023-07-14-uploads-seguros-tipos-nomes-armazenamento-e-verificacao.html</loc><lastmod>2023-07-14</lastmod></url>
+  <url><loc>/posts/2023-06-11-rate-limiting-limitando-abuso-sem-quebrar-usuarios-reais.html</loc><lastmod>2023-06-11</lastmod></url>
+  <url><loc>/posts/2023-05-21-jwt-quando-faz-sentido-e-quando-nao.html</loc><lastmod>2023-05-21</lastmod></url>
+  <url><loc>/posts/2023-05-12-csrf-em-formularios-checklist-rapido.html</loc><lastmod>2023-05-12</lastmod></url>
+  <url><loc>/posts/2023-04-18-sessoes-e-cookies-flags-seguras-samesite-e-expiracao.html</loc><lastmod>2023-04-18</lastmod></url>
+  <url><loc>/posts/2023-03-25-validacao-de-entrada-o-que-validar-e-onde-validar.html</loc><lastmod>2023-03-25</lastmod></url>
+  <url><loc>/posts/2023-03-04-erros-e-excecoes-no-php-8-estrategia-consistente-de-tratamento.html</loc><lastmod>2023-03-04</lastmod></url>
+  <url><loc>/posts/2023-02-13-pdo-com-prepared-statements-evitando-sql-injection-na-pratica.html</loc><lastmod>2023-02-13</lastmod></url>
+  <url><loc>/posts/2023-01-20-composer-e-autoload-psr-4-estrutura-minima-que-escala.html</loc><lastmod>2023-01-20</lastmod></url>
 </urlset>

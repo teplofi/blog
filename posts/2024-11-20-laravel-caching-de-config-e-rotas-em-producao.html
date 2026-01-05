@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Laravel: Eloquent vs Query Builder (quando trocar) · Notas de PHP e Web</title>
-  <meta name="description" content="Laravel: Eloquent vs Query Builder (quando trocar). Nota prática sobre Laravel."/>
+  <title>Laravel: caching de config e rotas em produção · Notas de PHP e Web</title>
+  <meta name="description" content="Laravel: caching de config e rotas em produção. Nota prática sobre Laravel."/>
   <meta name="author" content="Rafael Almeida"/>
-  <link rel="canonical" href="posts/2024-10-08-laravel-eloquent-vs-query-builder-quando-trocar.html"/>
+  <link rel="canonical" href="posts/2024-11-20-laravel-caching-de-config-e-rotas-em-producao.html"/>
   <link rel="stylesheet" href="../assets/style.css"/>
 </head>
 <body>
@@ -29,17 +29,20 @@
   <main class="card article">
     <div class="meta">
       <span class="badge">Laravel</span>
-      <span>8 de outubro de 2024</span>
-      <span>~4 min</span>
+      <span>20 de novembro de 2024</span>
+      <span>~3 min</span>
     </div>
-    <h1>Laravel: Eloquent vs Query Builder (quando trocar)</h1>
-    <p><b>Laravel: Eloquent vs Query Builder (quando trocar)</b> — Laravel acelera muito, mas sem limites claros você cria acoplamento e gargalos rapidamente.</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
-// Rate limiting simples via Redis (idéia)
-$key = &#x27;rl:&#x27; . $ip . &#x27;:&#x27; . $route;
-$hits = (int)$redis-&gt;incr($key);
-if ($hits === 1) $redis-&gt;expire($key, 60);
-if ($hits &gt; 120) { http_response_code(429); exit; }
-</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#eloquent</span> <span class="badge">#sql</span> <span class="badge">#performance</span> <span class="badge">#laravel</span> <span class="badge">#http</span> <span class="badge">#phpstan</span> <span class="badge">#psalm</span></div>
+    <h1>Laravel: caching de config e rotas em produção</h1>
+    <p><b>Laravel: caching de config e rotas em produção</b> — Laravel acelera muito, mas sem limites claros você cria acoplamento e gargalos rapidamente.</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
+$pdo = new PDO($dsn, $user, $pass, [
+  PDO::ATTR_ERRMODE =&gt; PDO::ERRMODE_EXCEPTION,
+  PDO::ATTR_DEFAULT_FETCH_MODE =&gt; PDO::FETCH_ASSOC,
+]);
+
+$stmt = $pdo-&gt;prepare(&#x27;SELECT id, email FROM users WHERE email = :email&#x27;);
+$stmt-&gt;execute([&#x27;email&#x27; =&gt; $email]);
+$user = $stmt-&gt;fetch();
+</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#cache</span> <span class="badge">#laravel</span> <span class="badge">#performance</span> <span class="badge">#opcache</span> <span class="badge">#cron</span> <span class="badge">#csrf</span> <span class="badge">#xdebug</span></div>
     <div style="height:8px"></div>
     <div class="kv">
       <b>Autor</b><div>Rafael Almeida</div>
