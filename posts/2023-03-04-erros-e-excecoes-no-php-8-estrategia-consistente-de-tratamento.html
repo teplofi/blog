@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>HTTP timeouts: conect, read, e o que logar · Notas de PHP e Web</title>
-  <meta name="description" content="HTTP timeouts: conect, read, e o que logar. Nota prática sobre Performance."/>
+  <title>Erros e exceções no PHP 8+: estratégia consistente de tratamento · Notas de PHP e Web</title>
+  <meta name="description" content="Erros e exceções no PHP 8+: estratégia consistente de tratamento. Nota prática sobre PHP."/>
   <meta name="author" content="Rafael Almeida"/>
-  <link rel="canonical" href="posts/2025-10-07-http-timeouts-conect-read-e-o-que-logar.html"/>
+  <link rel="canonical" href="posts/2023-03-04-erros-e-excecoes-no-php-8-estrategia-consistente-de-tratamento.html"/>
   <link rel="stylesheet" href="../assets/style.css"/>
 </head>
 <body>
@@ -28,12 +28,12 @@
 <section class="grid">
   <main class="card article">
     <div class="meta">
-      <span class="badge">Performance</span>
-      <span>7 de outubro de 2025</span>
+      <span class="badge">PHP</span>
+      <span>4 de março de 2023</span>
       <span>~4 min</span>
     </div>
-    <h1>HTTP timeouts: conect, read, e o que logar</h1>
-    <p><b>HTTP timeouts: conect, read, e o que logar</b> — Performance é consequência de boas escolhas e de medir o que realmente importa (p95/p99, DB, cache).</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
+    <h1>Erros e exceções no PHP 8+: estratégia consistente de tratamento</h1>
+    <p><b>Erros e exceções no PHP 8+: estratégia consistente de tratamento</b> — PHP moderno é uma plataforma sólida — o segredo é disciplinar estrutura, erros e dependências.</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
 $pdo = new PDO($dsn, $user, $pass, [
   PDO::ATTR_ERRMODE =&gt; PDO::ERRMODE_EXCEPTION,
   PDO::ATTR_DEFAULT_FETCH_MODE =&gt; PDO::FETCH_ASSOC,
@@ -42,7 +42,7 @@ $pdo = new PDO($dsn, $user, $pass, [
 $stmt = $pdo-&gt;prepare(&#x27;SELECT id, email FROM users WHERE email = :email&#x27;);
 $stmt-&gt;execute([&#x27;email&#x27; =&gt; $email]);
 $user = $stmt-&gt;fetch();
-</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#http</span> <span class="badge">#timeouts</span> <span class="badge">#api</span> <span class="badge">#debug</span> <span class="badge">#mysqli</span> <span class="badge">#mysql</span> <span class="badge">#jwt</span></div>
+</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#logging</span> <span class="badge">#debug</span> <span class="badge">#php</span> <span class="badge">#profiling</span> <span class="badge">#cookies</span> <span class="badge">#phpstan</span> <span class="badge">#postgres</span></div>
     <div style="height:8px"></div>
     <div class="kv">
       <b>Autor</b><div>Rafael Almeida</div>

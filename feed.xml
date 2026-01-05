@@ -9,8 +9,8 @@
 
   <item>
     <title>Symfony components no PHP puro: por onde começar</title>
-    <link>/posts/2025-12-10-symfony-components-no-php-puro-por-onde-começar.html</link>
-    <guid>/posts/2025-12-10-symfony-components-no-php-puro-por-onde-começar.html</guid>
+    <link>/posts/2025-12-10-symfony-components-no-php-puro-por-onde-comecar.html</link>
+    <guid>/posts/2025-12-10-symfony-components-no-php-puro-por-onde-comecar.html</guid>
     <pubDate>Wed, 10 Dec 2025 12:00:00 +0000</pubDate>
     <category>PHP</category>
     <description>Symfony components no PHP puro: por onde começar</description>
@@ -18,8 +18,8 @@
 
   <item>
     <title>PSR-12: consistência com ferramentas automáticas</title>
-    <link>/posts/2025-11-25-psr-12-consistência-com-ferramentas-automáticas.html</link>
-    <guid>/posts/2025-11-25-psr-12-consistência-com-ferramentas-automáticas.html</guid>
+    <link>/posts/2025-11-25-psr-12-consistencia-com-ferramentas-automaticas.html</link>
+    <guid>/posts/2025-11-25-psr-12-consistencia-com-ferramentas-automaticas.html</guid>
     <pubDate>Tue, 25 Nov 2025 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>PSR-12: consistência com ferramentas automáticas</description>
@@ -27,8 +27,8 @@
 
   <item>
     <title>Documentando decisões técnicas: ADR em 10 linhas</title>
-    <link>/posts/2025-10-25-documentando-decisões-técnicas-adr-em-10-linhas.html</link>
-    <guid>/posts/2025-10-25-documentando-decisões-técnicas-adr-em-10-linhas.html</guid>
+    <link>/posts/2025-10-25-documentando-decisoes-tecnicas-adr-em-10-linhas.html</link>
+    <guid>/posts/2025-10-25-documentando-decisoes-tecnicas-adr-em-10-linhas.html</guid>
     <pubDate>Sat, 25 Oct 2025 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Documentando decisões técnicas: ADR em 10 linhas</description>
@@ -45,8 +45,8 @@
 
   <item>
     <title>Segredos em produção: rotate, least privilege e armazenamento</title>
-    <link>/posts/2025-09-13-segredos-em-produção-rotate-least-privilege-e-armazenamento.html</link>
-    <guid>/posts/2025-09-13-segredos-em-produção-rotate-least-privilege-e-armazenamento.html</guid>
+    <link>/posts/2025-09-13-segredos-em-producao-rotate-least-privilege-e-armazenamento.html</link>
+    <guid>/posts/2025-09-13-segredos-em-producao-rotate-least-privilege-e-armazenamento.html</guid>
     <pubDate>Sat, 13 Sep 2025 12:00:00 +0000</pubDate>
     <category>Segurança</category>
     <description>Segredos em produção: rotate, least privilege e armazenamento</description>
@@ -63,8 +63,8 @@
 
   <item>
     <title>CLI no PHP: scripts confiáveis e cron</title>
-    <link>/posts/2025-08-10-cli-no-php-scripts-confiáveis-e-cron.html</link>
-    <guid>/posts/2025-08-10-cli-no-php-scripts-confiáveis-e-cron.html</guid>
+    <link>/posts/2025-08-10-cli-no-php-scripts-confiaveis-e-cron.html</link>
+    <guid>/posts/2025-08-10-cli-no-php-scripts-confiaveis-e-cron.html</guid>
     <pubDate>Sun, 10 Aug 2025 12:00:00 +0000</pubDate>
     <category>PHP</category>
     <description>CLI no PHP: scripts confiáveis e cron</description>
@@ -72,8 +72,8 @@
 
   <item>
     <title>MySQL vs Postgres: diferenças práticas no dia a dia</title>
-    <link>/posts/2025-07-15-mysql-vs-postgres-diferenças-práticas-no-dia-a-dia.html</link>
-    <guid>/posts/2025-07-15-mysql-vs-postgres-diferenças-práticas-no-dia-a-dia.html</guid>
+    <link>/posts/2025-07-15-mysql-vs-postgres-diferencas-praticas-no-dia-a-dia.html</link>
+    <guid>/posts/2025-07-15-mysql-vs-postgres-diferencas-praticas-no-dia-a-dia.html</guid>
     <pubDate>Tue, 15 Jul 2025 12:00:00 +0000</pubDate>
     <category>Banco de Dados</category>
     <description>MySQL vs Postgres: diferenças práticas no dia a dia</description>
@@ -81,8 +81,8 @@
 
   <item>
     <title>SQL eficiente: evite SELECT * e colunas desnecessárias</title>
-    <link>/posts/2025-06-18-sql-eficiente-evite-select-e-colunas-desnecessárias.html</link>
-    <guid>/posts/2025-06-18-sql-eficiente-evite-select-e-colunas-desnecessárias.html</guid>
+    <link>/posts/2025-06-18-sql-eficiente-evite-select-e-colunas-desnecessarias.html</link>
+    <guid>/posts/2025-06-18-sql-eficiente-evite-select-e-colunas-desnecessarias.html</guid>
     <pubDate>Wed, 18 Jun 2025 12:00:00 +0000</pubDate>
     <category>Performance</category>
     <description>SQL eficiente: evite SELECT * e colunas desnecessárias</description>
@@ -90,8 +90,8 @@
 
   <item>
     <title>TLS básico: headers e boas práticas</title>
-    <link>/posts/2025-06-03-tls-básico-headers-e-boas-práticas.html</link>
-    <guid>/posts/2025-06-03-tls-básico-headers-e-boas-práticas.html</guid>
+    <link>/posts/2025-06-03-tls-basico-headers-e-boas-praticas.html</link>
+    <guid>/posts/2025-06-03-tls-basico-headers-e-boas-praticas.html</guid>
     <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
     <category>Segurança</category>
     <description>TLS básico: headers e boas práticas</description>
@@ -99,8 +99,8 @@
 
   <item>
     <title>Observabilidade: métricas básicas para uma API</title>
-    <link>/posts/2025-04-30-observabilidade-métricas-básicas-para-uma-api.html</link>
-    <guid>/posts/2025-04-30-observabilidade-métricas-básicas-para-uma-api.html</guid>
+    <link>/posts/2025-04-30-observabilidade-metricas-basicas-para-uma-api.html</link>
+    <guid>/posts/2025-04-30-observabilidade-metricas-basicas-para-uma-api.html</guid>
     <pubDate>Wed, 30 Apr 2025 12:00:00 +0000</pubDate>
     <category>DevOps</category>
     <description>Observabilidade: métricas básicas para uma API</description>
@@ -117,8 +117,8 @@
 
   <item>
     <title>Nginx + PHP-FPM: parâmetros que importam</title>
-    <link>/posts/2025-03-31-nginx-php-fpm-parâmetros-que-importam.html</link>
-    <guid>/posts/2025-03-31-nginx-php-fpm-parâmetros-que-importam.html</guid>
+    <link>/posts/2025-03-31-nginx-php-fpm-parametros-que-importam.html</link>
+    <guid>/posts/2025-03-31-nginx-php-fpm-parametros-que-importam.html</guid>
     <pubDate>Mon, 31 Mar 2025 12:00:00 +0000</pubDate>
     <category>DevOps</category>
     <description>Nginx + PHP-FPM: parâmetros que importam</description>
@@ -135,8 +135,8 @@
 
   <item>
     <title>CI/CD para PHP: pipeline mínimo (lint → testes → build)</title>
-    <link>/posts/2025-02-08-cicd-para-php-pipeline-mínimo-lint-testes-build.html</link>
-    <guid>/posts/2025-02-08-cicd-para-php-pipeline-mínimo-lint-testes-build.html</guid>
+    <link>/posts/2025-02-08-cicd-para-php-pipeline-minimo-lint-testes-build.html</link>
+    <guid>/posts/2025-02-08-cicd-para-php-pipeline-minimo-lint-testes-build.html</guid>
     <pubDate>Sat, 08 Feb 2025 12:00:00 +0000</pubDate>
     <category>DevOps</category>
     <description>CI/CD para PHP: pipeline mínimo (lint → testes → build)</description>
@@ -144,8 +144,8 @@
 
   <item>
     <title>Mocks e stubs: o mínimo necessário</title>
-    <link>/posts/2025-01-26-mocks-e-stubs-o-mínimo-necessário.html</link>
-    <guid>/posts/2025-01-26-mocks-e-stubs-o-mínimo-necessário.html</guid>
+    <link>/posts/2025-01-26-mocks-e-stubs-o-minimo-necessario.html</link>
+    <guid>/posts/2025-01-26-mocks-e-stubs-o-minimo-necessario.html</guid>
     <pubDate>Sun, 26 Jan 2025 12:00:00 +0000</pubDate>
     <category>Testes</category>
     <description>Mocks e stubs: o mínimo necessário</description>
@@ -153,8 +153,8 @@
 
   <item>
     <title>Testes de integração com banco: transações e fixtures pequenas</title>
-    <link>/posts/2024-12-25-testes-de-integração-com-banco-transações-e-fixtures-pequenas.html</link>
-    <guid>/posts/2024-12-25-testes-de-integração-com-banco-transações-e-fixtures-pequenas.html</guid>
+    <link>/posts/2024-12-25-testes-de-integracao-com-banco-transacoes-e-fixtures-pequenas.html</link>
+    <guid>/posts/2024-12-25-testes-de-integracao-com-banco-transacoes-e-fixtures-pequenas.html</guid>
     <pubDate>Wed, 25 Dec 2024 12:00:00 +0000</pubDate>
     <category>Testes</category>
     <description>Testes de integração com banco: transações e fixtures pequenas</description>
@@ -162,8 +162,8 @@
 
   <item>
     <title>PHPUnit: organização de testes e nomes claros</title>
-    <link>/posts/2024-12-16-phpunit-organização-de-testes-e-nomes-claros.html</link>
-    <guid>/posts/2024-12-16-phpunit-organização-de-testes-e-nomes-claros.html</guid>
+    <link>/posts/2024-12-16-phpunit-organizacao-de-testes-e-nomes-claros.html</link>
+    <guid>/posts/2024-12-16-phpunit-organizacao-de-testes-e-nomes-claros.html</guid>
     <pubDate>Mon, 16 Dec 2024 12:00:00 +0000</pubDate>
     <category>Testes</category>
     <description>PHPUnit: organização de testes e nomes claros</description>
@@ -171,8 +171,8 @@
 
   <item>
     <title>Laravel: caching de config e rotas em produção</title>
-    <link>/posts/2024-11-20-laravel-caching-de-config-e-rotas-em-produção.html</link>
-    <guid>/posts/2024-11-20-laravel-caching-de-config-e-rotas-em-produção.html</guid>
+    <link>/posts/2024-11-20-laravel-caching-de-config-e-rotas-em-producao.html</link>
+    <guid>/posts/2024-11-20-laravel-caching-de-config-e-rotas-em-producao.html</guid>
     <pubDate>Wed, 20 Nov 2024 12:00:00 +0000</pubDate>
     <category>Laravel</category>
     <description>Laravel: caching de config e rotas em produção</description>
@@ -180,8 +180,8 @@
 
   <item>
     <title>Laravel: middlewares para autenticação e rate limit</title>
-    <link>/posts/2024-10-25-laravel-middlewares-para-autenticação-e-rate-limit.html</link>
-    <guid>/posts/2024-10-25-laravel-middlewares-para-autenticação-e-rate-limit.html</guid>
+    <link>/posts/2024-10-25-laravel-middlewares-para-autenticacao-e-rate-limit.html</link>
+    <guid>/posts/2024-10-25-laravel-middlewares-para-autenticacao-e-rate-limit.html</guid>
     <pubDate>Fri, 25 Oct 2024 12:00:00 +0000</pubDate>
     <category>Laravel</category>
     <description>Laravel: middlewares para autenticação e rate limit</description>
@@ -198,8 +198,8 @@
 
   <item>
     <title>Laravel: filas (queues) e jobs confiáveis</title>
-    <link>/posts/2024-09-02-laravel-filas-queues-e-jobs-confiáveis.html</link>
-    <guid>/posts/2024-09-02-laravel-filas-queues-e-jobs-confiáveis.html</guid>
+    <link>/posts/2024-09-02-laravel-filas-queues-e-jobs-confiaveis.html</link>
+    <guid>/posts/2024-09-02-laravel-filas-queues-e-jobs-confiaveis.html</guid>
     <pubDate>Mon, 02 Sep 2024 12:00:00 +0000</pubDate>
     <category>Laravel</category>
     <description>Laravel: filas (queues) e jobs confiáveis</description>
@@ -207,8 +207,8 @@
 
   <item>
     <title>Laravel: validação com Form Requests</title>
-    <link>/posts/2024-08-19-laravel-validação-com-form-requests.html</link>
-    <guid>/posts/2024-08-19-laravel-validação-com-form-requests.html</guid>
+    <link>/posts/2024-08-19-laravel-validacao-com-form-requests.html</link>
+    <guid>/posts/2024-08-19-laravel-validacao-com-form-requests.html</guid>
     <pubDate>Mon, 19 Aug 2024 12:00:00 +0000</pubDate>
     <category>Laravel</category>
     <description>Laravel: validação com Form Requests</description>
@@ -216,8 +216,8 @@
 
   <item>
     <title>Config por env vars: padrões e armadilhas</title>
-    <link>/posts/2024-07-27-config-por-env-vars-padrões-e-armadilhas.html</link>
-    <guid>/posts/2024-07-27-config-por-env-vars-padrões-e-armadilhas.html</guid>
+    <link>/posts/2024-07-27-config-por-env-vars-padroes-e-armadilhas.html</link>
+    <guid>/posts/2024-07-27-config-por-env-vars-padroes-e-armadilhas.html</guid>
     <pubDate>Sat, 27 Jul 2024 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Config por env vars: padrões e armadilhas</description>
@@ -225,8 +225,8 @@
 
   <item>
     <title>Lint + análise estática: PHPStan/Psalm no dia a dia</title>
-    <link>/posts/2024-06-30-lint-análise-estática-phpstanpsalm-no-dia-a-dia.html</link>
-    <guid>/posts/2024-06-30-lint-análise-estática-phpstanpsalm-no-dia-a-dia.html</guid>
+    <link>/posts/2024-06-30-lint-analise-estatica-phpstanpsalm-no-dia-a-dia.html</link>
+    <guid>/posts/2024-06-30-lint-analise-estatica-phpstanpsalm-no-dia-a-dia.html</guid>
     <pubDate>Sun, 30 Jun 2024 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Lint + análise estática: PHPStan/Psalm no dia a dia</description>
@@ -234,8 +234,8 @@
 
   <item>
     <title>Refatoração segura: passos pequenos + testes</title>
-    <link>/posts/2024-06-09-refatoração-segura-passos-pequenos-testes.html</link>
-    <guid>/posts/2024-06-09-refatoração-segura-passos-pequenos-testes.html</guid>
+    <link>/posts/2024-06-09-refatoracao-segura-passos-pequenos-testes.html</link>
+    <guid>/posts/2024-06-09-refatoracao-segura-passos-pequenos-testes.html</guid>
     <pubDate>Sun, 09 Jun 2024 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Refatoração segura: passos pequenos + testes</description>
@@ -243,8 +243,8 @@
 
   <item>
     <title>Versionamento de API: estratégia simples e previsível</title>
-    <link>/posts/2024-05-19-versionamento-de-api-estratégia-simples-e-previsível.html</link>
-    <guid>/posts/2024-05-19-versionamento-de-api-estratégia-simples-e-previsível.html</guid>
+    <link>/posts/2024-05-19-versionamento-de-api-estrategia-simples-e-previsivel.html</link>
+    <guid>/posts/2024-05-19-versionamento-de-api-estrategia-simples-e-previsivel.html</guid>
     <pubDate>Sun, 19 May 2024 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Versionamento de API: estratégia simples e previsível</description>
@@ -252,8 +252,8 @@
 
   <item>
     <title>Idempotência em APIs: retries sem duplicar efeitos</title>
-    <link>/posts/2024-05-11-idempotência-em-apis-retries-sem-duplicar-efeitos.html</link>
-    <guid>/posts/2024-05-11-idempotência-em-apis-retries-sem-duplicar-efeitos.html</guid>
+    <link>/posts/2024-05-11-idempotencia-em-apis-retries-sem-duplicar-efeitos.html</link>
+    <guid>/posts/2024-05-11-idempotencia-em-apis-retries-sem-duplicar-efeitos.html</guid>
     <pubDate>Sat, 11 May 2024 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Idempotência em APIs: retries sem duplicar efeitos</description>
@@ -261,8 +261,8 @@
 
   <item>
     <title>Logs estruturados: contexto mínimo para depurar rápido</title>
-    <link>/posts/2024-04-04-logs-estruturados-contexto-mínimo-para-depurar-rápido.html</link>
-    <guid>/posts/2024-04-04-logs-estruturados-contexto-mínimo-para-depurar-rápido.html</guid>
+    <link>/posts/2024-04-04-logs-estruturados-contexto-minimo-para-depurar-rapido.html</link>
+    <guid>/posts/2024-04-04-logs-estruturados-contexto-minimo-para-depurar-rapido.html</guid>
     <pubDate>Thu, 04 Apr 2024 12:00:00 +0000</pubDate>
     <category>Boas Práticas</category>
     <description>Logs estruturados: contexto mínimo para depurar rápido</description>
@@ -270,8 +270,8 @@
 
   <item>
     <title>Conexões e pool: evitando saturar o banco</title>
-    <link>/posts/2024-03-18-conexões-e-pool-evitando-saturar-o-banco.html</link>
-    <guid>/posts/2024-03-18-conexões-e-pool-evitando-saturar-o-banco.html</guid>
+    <link>/posts/2024-03-18-conexoes-e-pool-evitando-saturar-o-banco.html</link>
+    <guid>/posts/2024-03-18-conexoes-e-pool-evitando-saturar-o-banco.html</guid>
     <pubDate>Mon, 18 Mar 2024 12:00:00 +0000</pubDate>
     <category>Banco de Dados</category>
     <description>Conexões e pool: evitando saturar o banco</description>

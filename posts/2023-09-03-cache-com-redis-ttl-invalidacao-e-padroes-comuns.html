@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Laravel: Eloquent vs Query Builder (quando trocar) · Notas de PHP e Web</title>
-  <meta name="description" content="Laravel: Eloquent vs Query Builder (quando trocar). Nota prática sobre Laravel."/>
+  <title>Cache com Redis: TTL, invalidação e padrões comuns · Notas de PHP e Web</title>
+  <meta name="description" content="Cache com Redis: TTL, invalidação e padrões comuns. Nota prática sobre Performance."/>
   <meta name="author" content="Rafael Almeida"/>
-  <link rel="canonical" href="posts/2024-10-08-laravel-eloquent-vs-query-builder-quando-trocar.html"/>
+  <link rel="canonical" href="posts/2023-09-03-cache-com-redis-ttl-invalidacao-e-padroes-comuns.html"/>
   <link rel="stylesheet" href="../assets/style.css"/>
 </head>
 <body>
@@ -28,18 +28,18 @@
 <section class="grid">
   <main class="card article">
     <div class="meta">
-      <span class="badge">Laravel</span>
-      <span>8 de outubro de 2024</span>
-      <span>~4 min</span>
+      <span class="badge">Performance</span>
+      <span>3 de setembro de 2023</span>
+      <span>~3 min</span>
     </div>
-    <h1>Laravel: Eloquent vs Query Builder (quando trocar)</h1>
-    <p><b>Laravel: Eloquent vs Query Builder (quando trocar)</b> — Laravel acelera muito, mas sem limites claros você cria acoplamento e gargalos rapidamente.</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
+    <h1>Cache com Redis: TTL, invalidação e padrões comuns</h1>
+    <p><b>Cache com Redis: TTL, invalidação e padrões comuns</b> — Performance é consequência de boas escolhas e de medir o que realmente importa (p95/p99, DB, cache).</p><p>O objetivo aqui é prático: decisões pequenas que melhoram confiabilidade e manutenção. Se você já lidou com bugs intermitentes, sabe o valor de padrões simples.</p><h2>Como eu abordo</h2><ul><li>Comece com o caso real (o que está quebrando ou ficando caro).</li><li>Defina uma regra pequena e aplicável (sem reescrever tudo).</li><li>Instrumente: teste, log ou métrica para confirmar melhora.</li><li>Documente o “porquê” em poucas linhas para não perder contexto.</li></ul><h2>Armadilhas comuns</h2><ul><li>Otimizar cedo sem medir.</li><li>Misturar camadas (controller fazendo SQL, por exemplo).</li><li>Não registrar contexto (request id, rota, usuário) nos logs.</li><li>Apostar em “mágica” de framework sem entender o fluxo.</li></ul><div class='notice'><b>Dica:</b> prefira mudanças pequenas e reversíveis. Se não dá para reverter, você está fazendo uma aposta grande demais.</div><h2>Checklist rápido</h2><ul><li>Qual é o risco principal (segurança, performance, disponibilidade)?</li><li>Como eu valido a mudança (teste, log, métrica)?</li><li>O que pode dar errado e como reverter?</li><li>Quem mantém isso daqui a 3 meses?</li></ul><h2>Trecho de código</h2><pre><code>&lt;?php
 // Rate limiting simples via Redis (idéia)
 $key = &#x27;rl:&#x27; . $ip . &#x27;:&#x27; . $route;
 $hits = (int)$redis-&gt;incr($key);
 if ($hits === 1) $redis-&gt;expire($key, 60);
 if ($hits &gt; 120) { http_response_code(429); exit; }
-</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#eloquent</span> <span class="badge">#sql</span> <span class="badge">#performance</span> <span class="badge">#laravel</span> <span class="badge">#http</span> <span class="badge">#phpstan</span> <span class="badge">#psalm</span></div>
+</code></pre><hr/><p class='small'>Se esta nota te poupou tempo, anote o que você ajustou e por quê. Isso vira um guia interno com o tempo.</p><div class='pillrow'><span class="badge">#redis</span> <span class="badge">#cache</span> <span class="badge">#api</span> <span class="badge">#queues</span> <span class="badge">#xdebug</span> <span class="badge">#psalm</span> <span class="badge">#git</span></div>
     <div style="height:8px"></div>
     <div class="kv">
       <b>Autor</b><div>Rafael Almeida</div>
